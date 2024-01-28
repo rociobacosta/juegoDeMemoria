@@ -38,8 +38,8 @@ function limpiarCampo(){
 function crearNumeroSecreto(){
   let numeroGenerado = Math.floor(Math.random()* numeroMaximo) + 1;
   
-  console.log(numeroGenerado);
-  console.log(listadoNumerosGenerados);
+  // console.log(numeroGenerado);
+  // console.log(listadoNumerosGenerados);
 
   //solucion a la recursividad
   if(listadoNumerosGenerados.length == numeroMaximo){
